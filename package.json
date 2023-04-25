@@ -1,0 +1,30 @@
+{
+  "name": "read-gmails-using-nodejs",
+  "version": "1.0.0",
+  "description": "In this project we read emails of user who is registered with our gmail service provider",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srk0102/read-gmails-using-nodejs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/srk0102/read-gmails-using-nodejs/issues"
+  },
+  "homepage": "https://github.com/srk0102/read-gmails-using-nodejs#readme",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0",
+    "js-base64": "^3.7.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
